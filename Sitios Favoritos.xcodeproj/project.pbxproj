@@ -11,6 +11,8 @@
 		66345A4C2C5E9BED0004E620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66345A4B2C5E9BED0004E620 /* ContentView.swift */; };
 		66345A4E2C5E9BEE0004E620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66345A4D2C5E9BEE0004E620 /* Assets.xcassets */; };
 		66345A512C5E9BEE0004E620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66345A502C5E9BEE0004E620 /* Preview Assets.xcassets */; };
+		66F540222C5F773F00C467C5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F540212C5F773F00C467C5 /* Place.swift */; };
+		66F540252C5F78AC00C467C5 /* CustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F540242C5F78AC00C467C5 /* CustomDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		66345A4B2C5E9BED0004E620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66345A4D2C5E9BEE0004E620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66345A502C5E9BEE0004E620 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66F5401F2C5F737900C467C5 /* Sitios-Favoritos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sitios-Favoritos-Info.plist"; sourceTree = SOURCE_ROOT; };
+		66F540212C5F773F00C467C5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		66F540242C5F78AC00C467C5 /* CustomDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		66345A482C5E9BED0004E620 /* Sitios Favoritos */ = {
 			isa = PBXGroup;
 			children = (
+				66F540232C5F789700C467C5 /* components */,
+				66F540202C5F771D00C467C5 /* model */,
+				66F5401F2C5F737900C467C5 /* Sitios-Favoritos-Info.plist */,
 				66345A492C5E9BED0004E620 /* Sitios_FavoritosApp.swift */,
 				66345A4B2C5E9BED0004E620 /* ContentView.swift */,
 				66345A4D2C5E9BEE0004E620 /* Assets.xcassets */,
@@ -65,6 +73,22 @@
 				66345A502C5E9BEE0004E620 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66F540202C5F771D00C467C5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				66F540212C5F773F00C467C5 /* Place.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		66F540232C5F789700C467C5 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				66F540242C5F78AC00C467C5 /* CustomDialog.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F540222C5F773F00C467C5 /* Place.swift in Sources */,
 				66345A4C2C5E9BED0004E620 /* ContentView.swift in Sources */,
 				66345A4A2C5E9BED0004E620 /* Sitios_FavoritosApp.swift in Sources */,
+				66F540252C5F78AC00C467C5 /* CustomDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +301,7 @@
 				DEVELOPMENT_TEAM = 9M98K8Y584;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sitios-Favoritos-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +331,7 @@
 				DEVELOPMENT_TEAM = 9M98K8Y584;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sitios-Favoritos-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
